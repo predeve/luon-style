@@ -1,7 +1,8 @@
 {
   "name": "@luon/style",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Reactive scoped style rules for Luon Views",
+  "license": "MIT",
   "keywords": [
     "luon",
     "css",

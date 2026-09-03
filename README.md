@@ -155,3 +155,7 @@ Resolve local $ recipes into reusable class lists.
 
 - [Style language](https://docs.luon.dev/frontend/style)
 - [View language](https://docs.luon.dev/frontend/view)
+
+## License
+
+[MIT](LICENSE) © predeve
