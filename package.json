@@ -1,0 +1,35 @@
+{
+  "name": "@luon/style",
+  "version": "0.1.2",
+  "description": "Reactive scoped style rules for Luon Views",
+  "keywords": [
+    "luon",
+    "css",
+    "scoped-css",
+    "reactive",
+    "typescript"
+  ],
+  "homepage": "https://pkg.luon.dev/packages/style/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/predeve/luon-style.git"
+  },
+  "bugs": {
+    "url": "https://github.com/predeve/luon/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://pkg.luon.dev"
+  },
+  "type": "module",
+  "files": [
+    "src"
+  ],
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.0",
+    "happy-dom": "^20.12.0"
+  }
+}
