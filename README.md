@@ -6,6 +6,25 @@ Part of [Luon](https://www.luon.dev) — Reactive scoped style rules for Luon Vi
 [Source](https://github.com/predeve/luon-style) ·
 [Developer tools](https://www.luon.dev/tools)
 
+Write local style rules. Get scoped class names back.
+
+```ts
+import { styleView } from "@luon/style";
+
+const classes = styleView("profile", {
+  card: { padding: "16px", borderRadius: "12px" },
+  title: { color: "#0f766e", fontWeight: 700 },
+});
+
+const title = document.createElement("h2");
+title.className = classes.title;
+title.textContent = "Hello, Luon";
+document.body.append(title);
+```
+
+Run this in a browser. Style installs the scoped CSS.
+Read the implementation: [style exports](src/index.ts).
+
 ## Install
 
 ```bash
